@@ -1,0 +1,73 @@
+PS C:\Users\it> ping 127.0.0.1
+
+Pinging 127.0.0.1 with 32 bytes of data:
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+Reply from 127.0.0.1: bytes=32 time<1ms TTL=128
+
+Ping statistics for 127.0.0.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 0ms, Maximum = 0ms, Average = 0ms
+PS C:\Users\it> ping google.com
+
+Pinging google.com [172.217.19.238] with 32 bytes of data:
+Reply from 172.217.19.238: bytes=32 time=69ms TTL=115
+Reply from 172.217.19.238: bytes=32 time=77ms TTL=115
+Reply from 172.217.19.238: bytes=32 time=73ms TTL=115
+Reply from 172.217.19.238: bytes=32 time=75ms TTL=115
+
+Ping statistics for 172.217.19.238:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 69ms, Maximum = 77ms, Average = 73ms
+PS C:\Users\it> ping github.com
+
+Pinging github.com [20.207.73.82] with 32 bytes of data:
+Reply from 20.207.73.82: bytes=32 time=160ms TTL=109
+Reply from 20.207.73.82: bytes=32 time=108ms TTL=109
+Reply from 20.207.73.82: bytes=32 time=105ms TTL=109
+Reply from 20.207.73.82: bytes=32 time=216ms TTL=109
+
+Ping statistics for 20.207.73.82:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 105ms, Maximum = 216ms, Average = 147ms
+PS C:\Users\it> ping youtube.com
+
+Pinging youtube.com [172.217.19.206] with 32 bytes of data:
+Reply from 172.217.19.206: bytes=32 time=76ms TTL=56
+Reply from 172.217.19.206: bytes=32 time=75ms TTL=56
+Reply from 172.217.19.206: bytes=32 time=58ms TTL=56
+Reply from 172.217.19.206: bytes=32 time=96ms TTL=56
+
+Ping statistics for 172.217.19.206:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 58ms, Maximum = 96ms, Average = 76ms
+PS C:\Users\it> ping instagram.com
+
+Pinging instagram.com [57.144.148.34] with 32 bytes of data:
+Reply from 57.144.148.34: bytes=32 time=64ms TTL=53
+Reply from 57.144.148.34: bytes=32 time=87ms TTL=53
+Reply from 57.144.148.34: bytes=32 time=85ms TTL=53
+Reply from 57.144.148.34: bytes=32 time=74ms TTL=53
+
+Ping statistics for 57.144.148.34:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 64ms, Maximum = 87ms, Average = 77ms
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+Summary and Comparison:
+
+127.0.0.1 (Localhost): Instant response with 0ms latency, indicating the request is handled within the same machine.
+google.com: Average ping of 73ms, showing a relatively fast response time.
+github.com: Highest latency with an average of 147ms, indicating a longer network route.
+youtube.com: Average response time of 76ms, similar to Google but with a slightly wider range.
+instagram.com: Average ping of 77ms, close to YouTube and Google, with moderate variability.
+
+--------------------------------------------------------------------------------------------------------------------------
