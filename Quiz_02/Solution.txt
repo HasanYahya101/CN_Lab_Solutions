@@ -1,0 +1,2 @@
+Data is too large to fit on a single packet. There will be 4 TCP Connections instead of just 1 (to transfer 4 packets). The first 3 connections will transfer 1460 bytes (1460 * 3 = 4360). The forth will transfer 436 bytes of data.
+So, total data transferred will 4816 (4360 + 436 = 4816) bytes (not 4500 or 490 bytes). Message is sent (response) by concatinating the end of messages in each packet.
