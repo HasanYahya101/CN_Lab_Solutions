@@ -1,0 +1,3 @@
+pizza,10
+pasta,10
+burger,10
